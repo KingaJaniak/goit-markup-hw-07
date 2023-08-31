@@ -25,6 +25,16 @@
                 <li class="wrapper-address"><a class="link" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+        <div>
+        <button class="menu-toggle js-open-menu" aria-expanded="false"
+        aria-controls="mobile-menu">
+        <div class="mobile-visible">
+             <svg  width="32px" height="22px" class="mobile-menu-icon">
+               <use href="./images/mobile-menu-icon.svg#icon-mobile-menu"></use>
+             </svg>
+            </div>
+           </div>
+         </button> 
     </div>
     </header>
     <main>
@@ -126,7 +136,7 @@
             </ul>
         </div>
         </section>
-        <section>
+        <section class="doing-wrapper">
             <div class="container">
             <h2 class="header-primary wrapper-header-primary">What Are We Doing</h2>
             <ul class="wrapper-list">
@@ -284,38 +294,38 @@
             <h2 class="header-primary wrapper-header-primary">Customers</h2>
             <ul class="wrapper-customers-list">
                 <li>
-                    <a href="#">
-                    <svg class="wrapper-icon-customer">
+                    <a href="#" class="wrapper-icon-customer" >
+                    <svg width="110px" height="56px">
                         <use href="./images/icons.svg#icon-Logo"></use>
                     </svg></a>
                 </li>
                 <li>
-                    <a href="#">
-                    <svg class="wrapper-icon-customer">
+                    <a href="#" class="wrapper-icon-customer" >
+                    <svg width="110px" height="56px">
                         <use href="./images/icons.svg#icon-Logo-2"></use>
                     </svg></a>
                 </li>
                 <li>
-                    <a href="#">
-                    <svg class="wrapper-icon-customer">
+                    <a href="#" class="wrapper-icon-customer" >
+                    <svg width="110px" height="56px">
                         <use href="./images/icons.svg#icon-Logo-3"></use>
                     </svg></a>
                 </li>
                 <li>
-                    <a href="#">
-                    <svg class="wrapper-icon-customer">
+                    <a href="#" class="wrapper-icon-customer" >
+                    <svg width="110px" height="56px">
                         <use href="./images/icons.svg#icon-Logo-4"></use>
                     </svg></a>
                 </li>
                 <li>
-                    <a href="#">
-                    <svg class="wrapper-icon-customer">
+                    <a href="#" class="wrapper-icon-customer" >
+                    <svg width="110px" height="56px">
                         <use href="./images/icons.svg#icon-Logo-5"></use>
                     </svg></a>
                 </li>
                 <li>
-                    <a href="#">
-                    <svg class="wrapper-icon-customer">
+                    <a href="#" class="wrapper-icon-customer" >
+                    <svg width="110px" height="56px">
                         <use href="./images/icons.svg#icon-Logo-6"></use>
                     </svg></a>
                 </li>
@@ -370,6 +380,66 @@
         </ul>
         </div>
     </footer>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle close-button js-close-menu">
+          <svg width="8px" height="8px">
+            <use href="./images/modal-icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+        <div class="mobile-menu-wrapper">
+          <ul class="mobile-menu">
+            <li><a href="./index.html" class="link mobile-active">Studio</a></li>
+            <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+            <li><a href="" class="link">Contacts</a></li>
+          </ul>
+          <div>
+            <ul class="space-bottom">
+              <li class="space-bottom">
+                <a href="tel:+110001111111" class="tel-mobile"
+                  >+11 (000) 111-11-11</a>
+              </li>
+              <li>
+                <a href="mailto:info@devstudio.com" class="mobile-mail"
+                  >info@devstudio.com</a>
+              </li>
+            </ul>
+            <ul class="wrapper-icon-social-mobile">
+                <li class="wrapper-background-icon-footer">
+                    <a href="#">
+                        <svg class="wrapper-footer-social">
+                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                    </svg></a>
+                    </li>
+                    <li class="wrapper-background-icon-footer">
+                        <a href="#">
+                        <svg class="wrapper-footer-social">
+                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                    </svg>
+                    </a>
+                    </li>
+                    <li class="wrapper-background-icon-footer">
+                        <a href="#">
+                        <svg class="wrapper-footer-social">
+                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                    </svg>
+                    </a>
+                    </li>
+                    <li class="wrapper-background-icon-footer">
+                        <a href="#">
+                        <svg class="wrapper-footer-social">
+                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                    </svg></a></li>
+                </ul>
+          </div>
+        </div>
+      </div>
    <script src="./js/modal.js"></script>
+   <script
+   defer
+   src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+   integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+   crossorigin="anonymous"
+ ></script>
+   <script defer src="./js/mobile-menu.js"></script>
 </body>
 </html>
